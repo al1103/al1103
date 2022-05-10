@@ -5,9 +5,9 @@
 <p align="left">
 <a href="https://dev.to/zilong" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="zilong" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/17126707" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="17126707" height="30" width="40" /></a>
-<a href="https://fb.com/phạm tuấn" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="phạm tuấn" height="30" width="40" /></a>
-<a href="https://instagram.com/zilong" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="zilong" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/zilong" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="zilong" height="30" width="40" /></a>
+<a href="https://www.facebook.com/zilong1103" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="phạm tuấn" height="30" width="40" /></a>
+<a href="https://www.instagram.com/yoo.han.965/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="zilong" height="30" width="40" /></a>
+<a href="https://www.youtube.com/channel/UCm59cEbIKkb6zoqkVC-XOww" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="zilong" height="30" width="40" /></a>
 </p>
 <img align = "right" alt = "Mã hóa" width = "400" height="400"  src = "https://i.pinimg.com/originals/36/1d/5c/361d5cb71a00267045aa9d5acb747f44.gif"/>
 <h3 align="left">Languages and Tools:</h3>
