@@ -1,6 +1,34 @@
 <h1 align="center">ZILONG</h1>
 <img object-fit="cover" width="100%" src="https://preview.redd.it/myivpmi5vys21.png?width=960&crop=smart&auto=webp&s=d1c14936ad557f4f43a787c27e6d9a8d8a98a3a4"/>
 <h3 align="center">A passionate frontend developer</h3>
+<h3 align="center">I want to change the world, give me the source code.</h3>
+<h4 align="center">I ❤ Open Source.</h4>
+<h3 align="left">Who am I?</h3>
+
+ ``` C++
+  class WhoAmI{
+  public:{
+   char user[] = 'Zilong';
+   char current_edu[] = "HUMG";
+   char currently_learning[] = "Javascript";
+   char fun_fact[] = "I hate fish sauce";
+   char hobbies = [
+				'Music',
+			 	'Gaming',
+				'Movies',
+                         'sleep'
+			];
+	}
+	void getCity(){
+		return Thai_Binh();
+	}
+	void Ambitions(){
+		FullStackDeveloper();
+		FinishMyProjects();
+	}}
+ ```
+
+ 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
