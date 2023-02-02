@@ -6,7 +6,8 @@
 <h3 align="center">A passionate frontend developer</h3>
 <h3 align="center">I want to change the world, give me the source code.</h3>
 <h4 align="center">I ❤ Open Source.</h4>
-![](https://komarev.com/ghpvc/?username=al1103)
+<img src="https://komarev.com/ghpvc/?username=al1103&style=flat-square&color=blue" alt=""/>
+
 <h3 align="left">Who am I?</h3>
 
 
