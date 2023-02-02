@@ -12,7 +12,7 @@
    char current_edu[] = "HUMG";
    char currently_learning[] = "Javascript";
    char fun_fact[] = "I hate fish sauce";
-   char hobbies = [
+   char hobbies[] = [
 				'Music',
 			 	'Gaming',
 				'Movies',
