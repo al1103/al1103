@@ -25,7 +25,7 @@
                          'sleep'
 			];
 	}
-	int getCity(){
+	void getCity(){
 		return Thai_Binh();
 	}
 	void Ambitions(){
