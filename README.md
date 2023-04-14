@@ -12,26 +12,27 @@
 
 
  ``` C++
-  class WhoAmI{
-  public:{
-   char user[] = 'Zilong';
-   char current_edu[] = "HUMG";
-   char currently_learning[] = "Javascript";
-   char fun_fact[] = "I hate fish sauce";
-   char hobbies[] = [
-				'Music',
-			 	'Gaming',
-				'Movies',
-                         'sleep'
-			];
-	}
-	void getCity(){
-		return Thai_Binh();
-	}
-	void Ambitions(){
-		FullStackDeveloper();
-		FinishMyProjects();
-	}}
+ class WhoAmI {
+ public:
+  char user[7] = "Zilong";
+  char current_edu[5] = "HUMG";
+  char currently_learning[11] = "Javascript";
+  char fun_fact[19] = "I hate fish sauce";
+  char hobbies[4][8] = {
+   			"Music",
+   		 	"Gaming",
+   			"Movies",
+                        "Sleep"
+   		};
+   void getCity(){
+   	return Thai_Binh();
+   }
+   void Ambitions(){
+   	FullStackDeveloper();
+   	FinishMyProjects();
+   }
+};
+
  ```
 
  
