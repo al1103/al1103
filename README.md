@@ -14,7 +14,7 @@
  ``` C++
  class WhoAmI {
  public:
-  char user[7] = "Zilong";
+  char user[7] = "Phạm Anh Tuấn";
   char current_edu[5] = "HUMG";
   char currently_learning[11] = "Javascript";
   char fun_fact[19] = "I hate fish sauce";
