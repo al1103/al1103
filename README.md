@@ -1,8 +1,14 @@
-<div align="center">
-  <img src="assets/hero-3d2.svg" alt="Zilong — product engineer" width="100%">
-</div>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/al1103/al1103/refs/heads/main/assets/hero-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/al1103/al1103/refs/heads/main/assets/hero-3d2.svg">
+  <img src="https://raw.githubusercontent.com/al1103/al1103/refs/heads/main/assets/hero-3d2.svg" alt="Zilong — product engineer" width="100%">
+</picture>
 
 <img src="assets/rail.svg" alt="status rail" width="100%">
+
+<marquee scrollamount="9" behavior="scroll" direction="left">
+<code>esp32</code> · <code>typescript</code> · <code>react</code> · <code>node</code> · <code>python</code> · <code>swift</code> · <code>cloudflare</code> · <code>map-tiles</code> · <code>llm-tooling</code> · <code>docker</code> · <code>websocket</code> · <code>ble</code> · <code>gps</code> · <code>sql</code>
+</marquee>
 
 <br>
 
@@ -11,17 +17,6 @@
 ```
 
 I build products end to end — firmware on a round ESP32 display, the app that talks to it, the pipeline behind both.
-
-<br>
-
-### // about
-
-```yaml
-currently  building road-link v2 — routing, maps, on-device ui
-learning   distributed systems · applied llm tooling
-open_to    focused product work, hardware + software
-ask_me     esp32 · react · ai tooling · maps
-```
 
 <br>
 
@@ -36,7 +31,20 @@ ask_me     esp32 · react · ai tooling · maps
 
 <br>
 
-### // stack
+<details>
+<summary><b>// about</b> &nbsp;<sub>(click to expand)</sub></summary>
+
+```yaml
+currently  building road-link v2 — routing, maps, on-device ui
+learning   distributed systems · applied llm tooling
+open_to    focused product work, hardware + software
+ask_me     esp32 · react · ai tooling · maps
+```
+
+</details>
+
+<details>
+<summary><b>// stack</b> &nbsp;<sub>(click to expand)</sub></summary>
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-04060A?style=flat-square&logo=typescript&logoColor=6EF2CF" alt="TypeScript">
@@ -53,6 +61,8 @@ ask_me     esp32 · react · ai tooling · maps
   <img src="https://img.shields.io/badge/Linux-04060A?style=flat-square&logo=linux&logoColor=6EF2CF" alt="Linux">
 </p>
 
+</details>
+
 <br>
 
 ### // stats
@@ -65,10 +75,6 @@ ask_me     esp32 · react · ai tooling · maps
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=al1103&background=04060A&border=1B2230&stroke=6EF2CF&ring=6EF2CF&fire=8B7CFF&currStreakLabel=6EF2CF&sideLabels=8B96A5&dates=5F6B7A&hide_border=false" alt="streak">
 </p>
-
-<br>
-
-### // activity
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=al1103&bg_color=04060A&color=8B96A5&line=6EF2CF&point=8B7CFF&area=true&hide_border=true&custom_title=contribution%20graph" alt="activity graph" width="100%">
