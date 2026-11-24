@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/al1103/al1103/refs/heads/main/assets/hero.svg?v=5" alt="Zilong — product engineer" width="100%">
+  <img src="assets/console.svg" alt="Zilong — product engineer" width="100%">
 </div>
 
-<img src="https://raw.githubusercontent.com/al1103/al1103/refs/heads/main/assets/rail.svg" alt="status rail" width="100%">
+<img src="assets/rail.svg" alt="status rail" width="100%">
 
 <br>
 
@@ -16,7 +16,7 @@ I build products end to end — firmware on a round ESP32 display, the app that 
 
 ### // selected
 
-<img src="https://raw.githubusercontent.com/al1103/al1103/refs/heads/main/assets/work.svg?v=4" alt="Selected work" width="100%">
+<img src="assets/work.svg" alt="Selected work" width="100%">
 
 - `01` **[road-link](https://github.com/al1103/road-link)** · `esp32` `swift` `typescript`
 - `02` **[Motorcycle](https://al1103.github.io/Motorcycle/)** · `javascript` `puter`
