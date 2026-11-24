@@ -1,18 +1,22 @@
 <div align="center">
-  <img src="assets/hero.svg?v=2" alt="Zilong — product engineer" width="100%">
+  <img src="assets/hero.svg?v=4" alt="Zilong — product engineer" width="100%">
 </div>
 
-<br>
-
-**Build quietly. Ship precisely.** — Ít nói. Làm tới cùng.
-
-I build products end to end: firmware on a round ESP32 display, the app that talks to it, the pipeline behind both. Clarity, speed, and code that still runs in ten years.
+<img src="assets/rail.svg?v=1" alt="status rail" width="100%">
 
 <br>
 
-### Selected
+```text
+> build quietly. ship precisely.   ·   ít nói, làm tới cùng.
+```
 
-<img src="assets/work.svg?v=2" alt="Selected work" width="100%">
+I build products end to end — firmware on a round ESP32 display, the app that talks to it, the pipeline behind both.
+
+<br>
+
+### // selected
+
+<img src="assets/work.svg?v=3" alt="Selected work" width="100%">
 
 - `01` **[road-link](https://github.com/al1103/road-link)** · `esp32` `swift` `typescript`
 - `02` **[Motorcycle](https://al1103.github.io/Motorcycle/)** · `javascript` `puter`
@@ -21,7 +25,7 @@ I build products end to end: firmware on a round ESP32 display, the app that tal
 
 <br>
 
-### Stack
+### // stack
 
 ```text
 interface   react · next · tailwind · vanilla js
@@ -30,7 +34,7 @@ hardware    esp32 · c/c++ · sensors · displays
 infra       cloudflare · github actions · docker
 ```
 
-### Now
+### // now
 
 ```text
 learning    distributed systems · applied llm tooling
@@ -38,7 +42,7 @@ building    road-link v2 — routing · maps · on-device ui
 open to     focused product work, hardware + software
 ```
 
-### Signal
+### // signal
 
 <a href="mailto:phamtuan72az@gmail.com"><code>email</code></a> &nbsp;·&nbsp;
 <a href="https://github.com/al1103"><code>github</code></a> &nbsp;·&nbsp;
