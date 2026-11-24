@@ -11,8 +11,8 @@
   <g stroke="#6ef2cf" stroke-width="1.5" stroke-opacity="0.55" fill="none"><path d="M40 76V40h36"/><path d="M1160 76V40h-36"/><path d="M40 244v36h36"/><path d="M1160 244v36h-36"/></g>
   <text x="64" y="150" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="88" font-weight="600" letter-spacing="18" fill="#f4f6f8">ZILONG</text>
   <text x="66" y="186" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" letter-spacing="5.5" fill="#6ef2cf">PRODUCT ENGINEER / FIRMWARE / AI TOOLING</text>
-  <line x1="64" y1="214" x2="1136" y2="214" stroke="url(#rule)" stroke-width="1"/>
-  <g stroke="#ffffff" stroke-opacity="0.28" stroke-width="1"><path d="M64 214v8M200 214v5M336 214v5M472 214v5M608 214v8M744 214v5M880 214v5M1016 214v5M1136 214v8"/></g>
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2.5" fill="#8b96a5"><text x="64" y="262">PHẠM ANH TUẤN</text><text x="64" y="284">21.03N 105.85E</text><text x="1136" y="262" text-anchor="end">SYSTEM 2050</text><text x="1136" y="284" text-anchor="end">REV 03 / BUILD PASSING</text></g>
-  <circle cx="1052" cy="258" r="4" fill="#6ef2cf"/>
+  <rect x="64" y="196" width="30" height="2" fill="#6ef2cf"/>
+  <line x1="64" y1="222" x2="1136" y2="222" stroke="url(#rule)" stroke-width="1"/>
+  <g stroke="#ffffff" stroke-opacity="0.28" stroke-width="1"><path d="M64 222v8M200 222v5M336 222v5M472 222v5M608 222v8M744 222v5M880 222v5M1016 222v5M1136 222v8"/></g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2.5" fill="#8b96a5"><text x="64" y="266">PHẠM ANH TUẤN</text><text x="64" y="286">21.03N 105.85E</text><text x="1136" y="266" text-anchor="end">SYSTEM 2050</text><text x="1136" y="286" text-anchor="end">REV 03 / BUILD PASSING</text></g>
 </svg>
