@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Zilong — terminal profile">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04060a"/><stop offset="0.6" stop-color="#060910"/><stop offset="1" stop-color="#04070c"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#5ff0d0" stroke-opacity="0.05" stroke-width="1"/></pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.2" fill="#ffffff" fill-opacity="0.025"/></pattern>
+    <radialGradient id="halo" cx="0.82" cy="0.5" r="0.45"><stop offset="0" stop-color="#8b7cff" stop-opacity="0.2"/><stop offset="1" stop-color="#8b7cff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="sweepGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b7cff" stop-opacity="0.45"/><stop offset="1" stop-color="#8b7cff" stop-opacity="0"/></linearGradient>
+    <style>
+      @keyframes blink { 0%, 45% { opacity: 1; } 46%, 100% { opacity: 0; } }
+      .cursor { animation: blink 1.05s steps(1, end) infinite; }
+      @keyframes scanline { 0% { transform: translateY(-40px); } 100% { transform: translateY(360px); } }
+      .scan { animation: scanline 7s linear infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.95; } }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes dash { to { stroke-dashoffset: -120; } }
+      .flow { animation: dash 6s linear infinite; }
+    </style>
+  </defs>
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <rect width="1200" height="360" fill="url(#halo)"/>
+  <g stroke="#5ff0d0" stroke-opacity="0.13" stroke-width="1" fill="none">
+    <path d="M0 300H120l24-24h96l24 24h120"/>
+    <path d="M1200 84h-96l-20 20h-88"/>
+  </g>
+  <g fill="#5ff0d0" fill-opacity="0.35"><circle cx="120" cy="300" r="2.5"/><circle cx="264" cy="300" r="2.5"/><circle cx="1104" cy="84" r="2.5"/></g>
+  <path class="flow" d="M0 300H120l24-24h96l24 24h120" stroke="#5ff0d0" stroke-opacity="0.5" stroke-width="1.5" fill="none" stroke-dasharray="3 21"/>
+  <text x="48" y="34" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="3" fill="#5f6b7a">SYS/2050 · REV 05</text>
+  <circle class="pulse" cx="1052" cy="30" r="4" fill="#5ff0d0"/>
+  <text x="1152" y="34" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="3" fill="#5f6b7a">BUILD PASSING</text>
+  <g>
+    <rect x="48" y="56" width="720" height="248" rx="10" fill="#070a11" stroke="#ffffff" stroke-opacity="0.09"/>
+    <path d="M48 82h720" stroke="#ffffff" stroke-opacity="0.07"/>
+    <circle cx="70" cy="69" r="4" fill="#ff5f57" fill-opacity="0.55"/>
+    <circle cx="86" cy="69" r="4" fill="#febc2e" fill-opacity="0.55"/>
+    <circle cx="102" cy="69" r="4" fill="#28c840" fill-opacity="0.55"/>
+    <text x="126" y="73" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="2" fill="#5f6b7a">zilong@ghost : ~</text>
+  </g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">
+    <text x="72" y="118" fill="#5ff0d0">$</text>
+    <text x="94" y="118" fill="#dfe6ef">whoami</text>
+    <text x="72" y="146" fill="#7f8b9b">›</text>
+    <text x="94" y="146" fill="#aab6c6">phạm anh tuấn — product engineer</text>
+    <text x="72" y="182" fill="#5ff0d0">$</text>
+    <text x="94" y="182" fill="#dfe6ef">stack --now</text>
+    <text x="72" y="210" fill="#7f8b9b">›</text>
+    <text x="94" y="210" fill="#aab6c6">react · node · esp32 · swift · cloudflare</text>
+    <text x="72" y="246" fill="#5ff0d0">$</text>
+    <text x="94" y="246" fill="#dfe6ef">status</text>
+    <text x="72" y="274" fill="#7f8b9b">›</text>
+    <text x="94" y="274" fill="#aab6c6">building road-link v2</text>
+    <rect class="cursor" x="286" y="262" width="9" height="16" fill="#5ff0d0"/>
+  </g>
+  <g>
+    <circle cx="980" cy="180" r="78" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+    <circle cx="980" cy="180" r="54" fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
+    <circle cx="980" cy="180" r="30" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    <path d="M980 96v168M896 180h168" stroke="#ffffff" stroke-opacity="0.07"/>
+    <g class="flow" stroke="#5ff0d0" stroke-opacity="0.35" stroke-width="4" stroke-linecap="round"><path d="M980 104v10M980 246v10M904 180h10M1046 180h10"/></g>
+    <g>
+      <path d="M980 180 L1050 140 A78 78 0 0 0 1002 102 Z" fill="url(#sweepGrad)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 980 180" to="360 980 180" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <circle cx="1012" cy="150" r="3" fill="#8b7cff"/>
+    <circle class="pulse" cx="948" cy="206" r="2.5" fill="#5ff0d0"/>
+    <circle cx="980" cy="180" r="2" fill="#ffffff" fill-opacity="0.6"/>
+  </g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#5f6b7a">
+    <text x="902" y="288">21.03N 105.85E</text>
+    <text x="1058" y="288" text-anchor="end">UPLINK STABLE</text>
+  </g>
+  <rect class="scan" x="0" y="0" width="1200" height="3" fill="#5ff0d0" fill-opacity="0.06"/>
+  <rect width="1200" height="360" fill="url(#scan)"/>
+</svg>
