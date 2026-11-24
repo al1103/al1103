@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="48" viewBox="0 0 1200 48" role="img" aria-label="tech ticker">
+  <defs>
+    <mask id="edge">
+      <rect width="1200" height="48" fill="black"/>
+      <rect x="0" y="0" width="90" height="48" fill="url(#lg)"/>
+    </mask>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="black"/>
+      <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <mask id="fade">
+      <rect width="1200" height="48" fill="white"/>
+      <rect x="0" y="0" width="80" height="48" fill="url(#lg2)"/>
+      <rect x="1120" y="0" width="80" height="48" fill="url(#lg3)"/>
+    </mask>
+    <linearGradient id="lg2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="black"/><stop offset="1" stop-color="white"/></linearGradient>
+    <linearGradient id="lg3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient>
+    <style>
+      @keyframes slide { 0% { transform: translateX(0); } 100% { transform: translateX(-1200px); } }
+      .track { animation: slide 26s linear infinite; }
+    </style>
+  </defs>
+  <rect width="1200" height="48" fill="#05070b"/>
+  <path d="M0 1H1200M0 47H1200" stroke="#6ef2cf" stroke-opacity="0.18"/>
+  <g mask="url(#fade)">
+    <g class="track" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="2.2" fill="#6ef2cf">
+      <text x="0" y="29">esp32 · typescript · react · node · python · swift · cloudflare · map-tiles · llm-tooling · docker · websocket · ble · gps · sql · </text>
+      <text x="1200" y="29">esp32 · typescript · react · node · python · swift · cloudflare · map-tiles · llm-tooling · docker · websocket · ble · gps · sql · </text>
+    </g>
+  </g>
+</svg>
