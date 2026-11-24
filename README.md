@@ -5,10 +5,7 @@
 </picture>
 
 <img src="assets/rail.svg" alt="status rail" width="100%">
-
-<marquee scrollamount="9" behavior="scroll" direction="left">
-<code>esp32</code> · <code>typescript</code> · <code>react</code> · <code>node</code> · <code>python</code> · <code>swift</code> · <code>cloudflare</code> · <code>map-tiles</code> · <code>llm-tooling</code> · <code>docker</code> · <code>websocket</code> · <code>ble</code> · <code>gps</code> · <code>sql</code>
-</marquee>
+<img src="assets/ticker.svg" alt="tech ticker" width="100%">
 
 <br>
 
