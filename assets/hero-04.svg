@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Zilong — product engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05060a"/><stop offset="0.55" stop-color="#080a10"/><stop offset="1" stop-color="#0b0e14"/></linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6ef2cf" stop-opacity="0"/><stop offset="0.5" stop-color="#6ef2cf" stop-opacity="0.8"/><stop offset="1" stop-color="#6ef2cf" stop-opacity="0"/></linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/></pattern>
+    <radialGradient id="glow" cx="0.1" cy="0" r="0.8"><stop offset="0" stop-color="#6ef2cf" stop-opacity="0.15"/><stop offset="1" stop-color="#6ef2cf" stop-opacity="0"/></radialGradient>
+    <style>
+      @keyframes sweep { 0% { transform: translateX(-420px); } 100% { transform: translateX(1320px); } }
+      .sweep { animation: sweep 9s linear infinite; }
+      @keyframes blink { 0%, 45% { opacity: 1; } 46%, 100% { opacity: 0; } }
+      .cursor { animation: blink 1.05s steps(1, end) infinite; }
+      @keyframes flow { to { stroke-dashoffset: -360; } }
+      .flow { animation: flow 14s linear infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.9; } }
+      .br { animation: pulse 6s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <rect width="1200" height="340" fill="url(#glow)"/>
+  <rect class="sweep" x="0" y="0" width="420" height="340" fill="url(#shimmer)"/>
+  <g class="br" stroke="#6ef2cf" stroke-width="1.5" fill="none"><path d="M40 78V40h38"/><path d="M1160 78V40h-38"/><path d="M40 262v38h38"/><path d="M1160 262v38h-38"/></g>
+  <text x="64" y="152" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="88" font-weight="600" letter-spacing="18" fill="#f4f6f8">ZILONG</text>
+  <rect class="cursor" x="486" y="88" width="14" height="66" fill="#6ef2cf"/>
+  <text x="66" y="190" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" letter-spacing="5.5" fill="#6ef2cf">PRODUCT ENGINEER / FIRMWARE / AI TOOLING</text>
+  <rect x="64" y="200" width="30" height="2" fill="#6ef2cf"/>
+  <line x1="64" y1="228" x2="1136" y2="228" stroke="url(#rule)" stroke-width="1"/>
+  <line class="flow" x1="64" y1="228" x2="1136" y2="228" stroke="#6ef2cf" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="2 18"/>
+  <g stroke="#ffffff" stroke-opacity="0.26" stroke-width="1"><path d="M64 228v8M200 228v5M336 228v5M472 228v5M608 228v8M744 228v5M880 228v5M1016 228v5M1136 228v8"/></g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2.5" fill="#8b96a5">
+    <text x="64" y="274">PHẠM ANH TUẤN</text>
+    <text x="64" y="296">21.03N 105.85E</text>
+    <text x="1136" y="274" text-anchor="end">SYSTEM 2050</text>
+    <text x="1136" y="296" text-anchor="end">REV 04 / BUILD PASSING</text>
+  </g>
+</svg>
