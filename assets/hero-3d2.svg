@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Zilong — product engineer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#03050a"/><stop offset="0.5" stop-color="#061019"/><stop offset="1" stop-color="#08251f"/></linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a2b25"/><stop offset="1" stop-color="#03060a"/></linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7cf6d6" stop-opacity="0.85"/><stop offset="0.5" stop-color="#4fd6c4" stop-opacity="0.35"/><stop offset="1" stop-color="#8b7cff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="faceTop" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f5f52"/><stop offset="1" stop-color="#113c34"/></linearGradient>
+    <linearGradient id="faceLeft" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0e2f29"/><stop offset="1" stop-color="#061613"/></linearGradient>
+    <linearGradient id="faceRight" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#164a40"/><stop offset="1" stop-color="#0a2621"/></linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6ef2cf" stop-opacity="0.22"/><stop offset="1" stop-color="#6ef2cf" stop-opacity="0"/></linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="16"/></filter>
+    <style>
+      @keyframes blink { 0%, 45% { opacity: 1; } 46%, 100% { opacity: 0; } }
+      .cursor { animation: blink 1.05s steps(1, end) infinite; }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+      .cube { animation: float 6s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.9; } }
+      .pulse { animation: pulse 3s ease-in-out infinite; }
+      @keyframes glow { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+      .sunpulse { animation: glow 8s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="1200" height="360" fill="url(#sky)"/>
+  <circle class="sunpulse" cx="720" cy="330" r="215" fill="url(#sun)"/>
+  <g fill="#04080d" fill-opacity="0.9">
+    <rect x="505" y="128" width="430" height="3"/>
+    <rect x="505" y="142" width="430" height="4"/>
+    <rect x="505" y="158" width="430" height="5"/>
+    <rect x="505" y="176" width="430" height="6"/>
+    <rect x="505" y="196" width="430" height="7"/>
+  </g>
+  <rect y="214" width="1200" height="146" fill="url(#floor)"/>
+  <g stroke="#6ef2cf" stroke-opacity="0.2" stroke-width="1">
+    <path d="M600 214L0 360M600 214L120 360M600 214L240 360M600 214L360 360M600 214L480 360M600 214L720 360M600 214L840 360M600 214L960 360M600 214L1080 360M600 214L1200 360"/>
+    <path d="M0 224H1200M0 238H1200M0 258H1200M0 286H1200M0 322H1200M0 358H1200"/>
+  </g>
+  <line x1="0" y1="214" x2="1200" y2="214" stroke="#6ef2cf" stroke-opacity="0.5" stroke-width="1.5"/>
+  <rect x="0" y="205" width="1200" height="18" fill="#6ef2cf" opacity="0.06"/>
+  <g class="pulse" stroke="#6ef2cf" stroke-width="1.5" fill="none"><path d="M40 76V40h40"/><path d="M1160 76V40h-40"/></g>
+  <text x="48" y="30" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing="3" fill="#6f8b84">SYS/2050 · REV 08</text>
+  <text x="1152" y="30" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing="3" fill="#6f8b84">BUILD PASSING</text>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="118" font-weight="600" letter-spacing="20">
+    <text x="82" y="170" fill="#03100d" opacity="0.85">ZILONG</text>
+    <text x="79" y="167" fill="#04180f">ZILONG</text>
+    <text x="76" y="163" fill="#062019">ZILONG</text>
+    <text x="73" y="159" fill="#082b23">ZILONG</text>
+    <text x="70" y="155" fill="#0b3730">ZILONG</text>
+    <text x="67" y="151" fill="#11493e">ZILONG</text>
+    <text x="65" y="149" fill="#f0f9f6">ZILONG</text>
+  </g>
+  <rect class="cursor" x="537" y="73" width="15" height="80" fill="#6ef2cf"/>
+  <g transform="translate(0,428) scale(1,-1)" fill="url(#fade)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="118" font-weight="600" letter-spacing="20"><text x="65" y="149">ZILONG</text></g>
+  <text x="66" y="196" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="5.5" fill="#6ef2cf">PRODUCT ENGINEER / FIRMWARE / AI TOOLING</text>
+  <g class="cube">
+    <ellipse cx="1030" cy="216" rx="86" ry="16" fill="#6ef2cf" opacity="0.14" filter="url(#soft)"/>
+    <path d="M1030 44 L1108 88 L1030 132 L952 88 Z" fill="url(#faceTop)" stroke="#6ef2cf" stroke-opacity="0.5"/>
+    <path d="M952 88 L1030 132 L1030 212 L952 168 Z" fill="url(#faceLeft)" stroke="#6ef2cf" stroke-opacity="0.3"/>
+    <path d="M1108 88 L1030 132 L1030 212 L1108 168 Z" fill="url(#faceRight)" stroke="#6ef2cf" stroke-opacity="0.38"/>
+    <path d="M1030 44 L1108 88 L1030 132 L952 88 Z" fill="none" stroke="#9dfbe4" stroke-opacity="0.65"/>
+  </g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="2.5" fill="#7fa69d">
+    <text x="66" y="300">PHẠM ANH TUẤN</text>
+    <text x="66" y="318">21.03N 105.85E</text>
+    <text x="1136" y="300" text-anchor="end">TS · NODE · ESP32</text>
+    <text x="1136" y="318" text-anchor="end">UPLINK STABLE</text>
+  </g>
+</svg>
