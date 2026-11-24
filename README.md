@@ -73,8 +73,20 @@ ask_me     esp32 · react · ai tooling · maps
   <img src="https://streak-stats.demolab.com?user=al1103&background=04060A&border=1B2230&stroke=6EF2CF&ring=6EF2CF&fire=8B7CFF&currStreakLabel=6EF2CF&sideLabels=8B96A5&dates=5F6B7A&hide_border=false" alt="streak">
 </p>
 
+<br>
+
+### // activity
+
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=al1103&bg_color=04060A&color=8B96A5&line=6EF2CF&point=8B7CFF&area=true&hide_border=true&custom_title=contribution%20graph" alt="activity graph" width="100%">
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/al1103/al1103/output/snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/al1103/al1103/output/snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/al1103/al1103/output/snake.svg" alt="contribution snake" width="100%">
+  </picture>
 </p>
 
 <br>
