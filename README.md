@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/hero-06.svg" alt="Zilong — product engineer" width="100%">
+  <img src="assets/hero-04.svg" alt="Zilong — product engineer" width="100%">
 </div>
 
 <img src="assets/rail.svg" alt="status rail" width="100%">
