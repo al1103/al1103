@@ -1,1 +1,18 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Zilong">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06070a"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6ef2cf" stop-opacity="0"/><stop offset="0.5" stop-color="#6ef2cf" stop-opacity="0.85"/><stop offset="1" stop-color="#6ef2cf" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/></pattern>
+    <radialGradient id="glow" cx="0.12" cy="0.05" r="0.75"><stop offset="0" stop-color="#6ef2cf" stop-opacity="0.14"/><stop offset="1" stop-color="#6ef2cf" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+  <g stroke="#6ef2cf" stroke-width="1.5" stroke-opacity="0.55" fill="none"><path d="M40 76V40h36"/><path d="M1160 76V40h-36"/><path d="M40 244v36h36"/><path d="M1160 244v36h-36"/></g>
+  <text x="64" y="150" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="88" font-weight="600" letter-spacing="18" fill="#f4f6f8">ZILONG</text>
+  <text x="66" y="186" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" letter-spacing="5.5" fill="#6ef2cf">PRODUCT ENGINEER / FIRMWARE / AI TOOLING</text>
+  <line x1="64" y1="214" x2="1136" y2="214" stroke="url(#rule)" stroke-width="1"/>
+  <g stroke="#ffffff" stroke-opacity="0.28" stroke-width="1"><path d="M64 214v8M200 214v5M336 214v5M472 214v5M608 214v8M744 214v5M880 214v5M1016 214v5M1136 214v8"/></g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2.5" fill="#8b96a5"><text x="64" y="262">PHẠM ANH TUẤN</text><text x="64" y="284">21.03N 105.85E</text><text x="1136" y="262" text-anchor="end">SYSTEM 2050</text><text x="1136" y="284" text-anchor="end">REV 03 / BUILD PASSING</text></g>
+  <circle cx="1052" cy="258" r="4" fill="#6ef2cf"/>
+</svg>
