@@ -1,34 +1,32 @@
 <div align="center">
-
-<sub>PHẠM ANH TUẤN · VIỆT NAM · UTC+7</sub>
-
-# Z I L O N G
-
-<sub><code>product engineer</code> &nbsp;·&nbsp; <code>firmware</code> &nbsp;·&nbsp; <code>ai tooling</code></sub>
-
+  <img src="assets/hero.svg" alt="Zilong — product engineer" width="100%">
 </div>
 
 <br>
 
-> **Build quietly. Ship precisely.**
-> Ít nói. Làm tới cùng.
+**Build quietly. Ship precisely.** — Ít nói. Làm tới cùng.
 
-I build products end to end — from firmware on a round ESP32 display to the interface that talks to it. I care about clarity, speed, and things that still work ten years from now.
-
-<br>
-
-## Selected work
-
-| | Project | What it is | Stack |
-|:--|:--|:--|:--|
-| `01` | **[road-link](https://github.com/al1103/road-link)** | Off-road navigation: device, iOS app and routing pipeline | `esp32` `swift` `ts` |
-| `02` | **[Motorcycle](https://al1103.github.io/Motorcycle/)** | AI concept studio for motorcycles, runs in the browser | `js` `puter` |
-| `03` | **[pawpal](https://github.com/al1103/pawpal)** | Local-first companion app with an offline data layer | `ts` `react` |
-| `04` | **[The-Rose-That-Remembers](https://al1103.github.io/The-Rose-That-Remembers/)** | A small narrative experiment in motion and memory | `html` `webgl` |
+I build products end to end: firmware on a round ESP32 display, the app that talks to it, the pipeline behind both. Clarity, speed, and code that still runs in ten years.
 
 <br>
 
-## Stack
+### Selected
+
+**`01` [road-link](https://github.com/al1103/road-link)** — off-road navigation: ESP32 device, iOS app, routing pipeline
+<br><sub><code>esp32</code> · <code>swift</code> · <code>typescript</code></sub>
+
+**`02` [Motorcycle](https://al1103.github.io/Motorcycle/)** — AI concept studio for motorcycles, runs in the browser
+<br><sub><code>javascript</code> · <code>puter</code></sub>
+
+**`03` [pawpal](https://github.com/al1103/pawpal)** — local-first companion app with an offline data layer
+<br><sub><code>typescript</code> · <code>react</code></sub>
+
+**`04` [The-Rose-That-Remembers](https://al1103.github.io/The-Rose-That-Remembers/)** — a small narrative experiment in motion and memory
+<br><sub><code>html</code> · <code>webgl</code></sub>
+
+<br>
+
+### Stack
 
 ```text
 interface   react · next · tailwind · vanilla js
@@ -37,19 +35,15 @@ hardware    esp32 · c/c++ · sensors · displays
 infra       cloudflare · github actions · docker
 ```
 
-<br>
-
-## Now
+### Now
 
 ```text
-learning   distributed systems, applied llm tooling
-building   road-link v2 — routing, maps, on-device ui
-open to    focused product work, hardware + software
+learning    distributed systems · applied llm tooling
+building    road-link v2 — routing · maps · on-device ui
+open to     focused product work, hardware + software
 ```
 
-<br>
-
-## Signal
+### Signal
 
 <a href="mailto:phamtuan72az@gmail.com"><code>email</code></a> &nbsp;·&nbsp;
 <a href="https://github.com/al1103"><code>github</code></a> &nbsp;·&nbsp;
@@ -57,6 +51,4 @@ open to    focused product work, hardware + software
 
 <br>
 
-<div align="center">
-<sub>nothing loud. everything deliberate.</sub>
-</div>
+<div align="center"><sub>nothing loud. everything deliberate.</sub></div>
