@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="56" viewBox="0 0 1200 56" role="img" aria-label="status rail">
+  <rect width="1200" height="56" fill="#05070b"/>
+  <g stroke="#ffffff" stroke-opacity="0.08"><path d="M300 12v32M600 12v32M900 12v32"/></g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <text x="24" y="24" font-size="9" letter-spacing="3" fill="#5f6b7a">STATUS</text>
+    <text x="24" y="42" font-size="13" letter-spacing="2" fill="#5ff0d0">SHIPPING</text>
+    <text x="324" y="24" font-size="9" letter-spacing="3" fill="#5f6b7a">STACK</text>
+    <text x="324" y="42" font-size="13" letter-spacing="1.4" fill="#c9d3e0">TS · NODE · ESP32</text>
+    <text x="624" y="24" font-size="9" letter-spacing="3" fill="#5f6b7a">TIMEZONE</text>
+    <text x="624" y="42" font-size="13" letter-spacing="1.4" fill="#c9d3e0">UTC+7 · HANOI</text>
+    <text x="924" y="24" font-size="9" letter-spacing="3" fill="#5f6b7a">REVISION</text>
+    <text x="924" y="42" font-size="13" letter-spacing="1.4" fill="#c9d3e0">05 · 2026</text>
+  </g>
+</svg>
