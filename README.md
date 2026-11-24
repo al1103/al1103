@@ -12,17 +12,12 @@ I build products end to end: firmware on a round ESP32 display, the app that tal
 
 ### Selected
 
-**`01` [road-link](https://github.com/al1103/road-link)** — off-road navigation: ESP32 device, iOS app, routing pipeline
-<br><sub><code>esp32</code> · <code>swift</code> · <code>typescript</code></sub>
+<img src="https://raw.githubusercontent.com/al1103/al1103/refs/heads/main/assets/work.svg" alt="Selected work" width="100%">
 
-**`02` [Motorcycle](https://al1103.github.io/Motorcycle/)** — AI concept studio for motorcycles, runs in the browser
-<br><sub><code>javascript</code> · <code>puter</code></sub>
-
-**`03` [pawpal](https://github.com/al1103/pawpal)** — local-first companion app with an offline data layer
-<br><sub><code>typescript</code> · <code>react</code></sub>
-
-**`04` [The-Rose-That-Remembers](https://al1103.github.io/The-Rose-That-Remembers/)** — a small narrative experiment in motion and memory
-<br><sub><code>html</code> · <code>webgl</code></sub>
+`01`&nbsp; **[road-link](https://github.com/al1103/road-link)** &nbsp;`esp32` `swift` `typescript`
+`02`&nbsp; **[Motorcycle](https://al1103.github.io/Motorcycle/)** &nbsp;`javascript` `puter`
+`03`&nbsp; **[pawpal](https://github.com/al1103/pawpal)** &nbsp;`typescript` `react`
+`04`&nbsp; **[The-Rose-That-Remembers](https://al1103.github.io/The-Rose-That-Remembers/)** &nbsp;`html` `webgl`
 
 <br>
 
