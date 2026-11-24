@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Selected work">
+  <style>
+    @keyframes dash { to { stroke-dashoffset: -240; } }
+    .dash { animation: dash 10s linear infinite; }
+  </style>
+  <rect width="1200" height="520" fill="#05060a"/>
+  <g fill="#090b11" stroke="#ffffff" stroke-opacity="0.07">
+    <rect x="40" y="40" width="540" height="205" rx="14"/>
+    <rect x="620" y="40" width="540" height="205" rx="14"/>
+    <rect x="40" y="275" width="540" height="205" rx="14"/>
+    <rect x="620" y="275" width="540" height="205" rx="14"/>
+  </g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <text x="70" y="78" font-size="11" letter-spacing="4" fill="#6ef2cf">01</text>
+    <text x="70" y="122" font-size="30" font-weight="600" fill="#f4f6f8">road-link</text>
+    <text x="70" y="152" font-size="12" fill="#939eae">off-road navigation</text>
+    <text x="70" y="170" font-size="12" fill="#939eae">device · iOS · routing</text>
+    <text x="70" y="205" font-size="11" letter-spacing="1.5" fill="#6ef2cf">esp32 · swift · typescript</text>
+    <text x="650" y="78" font-size="11" letter-spacing="4" fill="#6ef2cf">02</text>
+    <text x="650" y="122" font-size="30" font-weight="600" fill="#f4f6f8">Motorcycle</text>
+    <text x="650" y="152" font-size="12" fill="#939eae">ai concept studio</text>
+    <text x="650" y="170" font-size="12" fill="#939eae">runs in the browser</text>
+    <text x="650" y="205" font-size="11" letter-spacing="1.5" fill="#6ef2cf">javascript · puter</text>
+    <text x="70" y="313" font-size="11" letter-spacing="4" fill="#6ef2cf">03</text>
+    <text x="70" y="357" font-size="30" font-weight="600" fill="#f4f6f8">pawpal</text>
+    <text x="70" y="387" font-size="12" fill="#939eae">local-first companion</text>
+    <text x="70" y="405" font-size="12" fill="#939eae">offline data layer</text>
+    <text x="70" y="440" font-size="11" letter-spacing="1.5" fill="#6ef2cf">typescript · react</text>
+    <text x="650" y="313" font-size="11" letter-spacing="4" fill="#6ef2cf">04</text>
+    <text x="650" y="357" font-size="30" font-weight="600" fill="#f4f6f8">The Rose</text>
+    <text x="650" y="387" font-size="12" fill="#939eae">narrative experiment</text>
+    <text x="650" y="405" font-size="12" fill="#939eae">motion · memory</text>
+    <text x="650" y="440" font-size="11" letter-spacing="1.5" fill="#6ef2cf">html · webgl</text>
+  </g>
+  <path class="dash" d="M352 150 C 392 96 424 158 462 108 S 512 62 540 62" fill="none" stroke="#6ef2cf" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="4 10"/>
+  <circle cx="352" cy="150" r="3.5" fill="#6ef2cf"/>
+  <circle cx="540" cy="62" r="7" fill="none" stroke="#6ef2cf" stroke-width="1.5"/>
+  <circle cx="540" cy="62" r="2.5" fill="#6ef2cf"/>
+  <path d="M977 150 A48 48 0 0 1 1073 150" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="6"/>
+  <path d="M977 150 A48 48 0 0 1 1046 111" fill="none" stroke="#6ef2cf" stroke-opacity="0.85" stroke-width="6" stroke-linecap="round"/>
+  <line x1="1025" y1="150" x2="1058" y2="116" stroke="#f4f6f8" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="1025" cy="150" r="4" fill="#f4f6f8"/>
+  <rect x="436" y="318" width="80" height="128" rx="13" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1.5"/>
+  <line x1="454" y1="348" x2="498" y2="348" stroke="#6ef2cf" stroke-opacity="0.5" stroke-width="3" stroke-linecap="round"/>
+  <line x1="454" y1="364" x2="486" y2="364" stroke="#6ef2cf" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round"/>
+  <line x1="454" y1="380" x2="492" y2="380" stroke="#6ef2cf" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="476" cy="426" r="3" fill="#ffffff" fill-opacity="0.25"/>
+  <circle cx="1025" cy="380" r="58" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-dasharray="3 9"/>
+  <g stroke="#6ef2cf" stroke-opacity="0.45" stroke-width="1.2" fill="none">
+    <ellipse cx="1025" cy="380" rx="13" ry="36"/>
+    <ellipse cx="1025" cy="380" rx="13" ry="36" transform="rotate(45 1025 380)"/>
+    <ellipse cx="1025" cy="380" rx="13" ry="36" transform="rotate(90 1025 380)"/>
+    <ellipse cx="1025" cy="380" rx="13" ry="36" transform="rotate(135 1025 380)"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 1025 380" to="360 1025 380" dur="60s" repeatCount="indefinite"/>
+  </g>
+</svg>
